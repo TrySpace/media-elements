@@ -39,6 +39,7 @@ class RumbleVideoElement extends CustomVideoElement {
       const rumbleContainer = document.querySelector('#rumble_video')
       const rumbleVideo = rumbleContainer.querySelector('video')
       console.log(`🚀 ~ RumbleVideoElement ~ load ~ rumbleVideo:`, rumbleVideo)
+      // TODO: Wait for src to be set
       const rumbleSrc = rumbleVideo.querySelector('video').src
       console.log(`🚀 ~ RumbleVideoElement ~ load ~ rumbleSrc:`, rumbleSrc)
     } else {
